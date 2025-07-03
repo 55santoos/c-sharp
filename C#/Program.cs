@@ -32,6 +32,7 @@ if ( idade > 18 ) {
     if ( temCNH == true ) {
         Console.WriteLine("Pessoa é maior de idade e possui CNH.");
     } else {
+     
         Console.WriteLine("Pessoa não possui CNH.");
     }
 } else {
