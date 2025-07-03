@@ -1,5 +1,6 @@
-﻿Console.WriteLine("Hello, World!");
-Console.WriteLine(10.0 / 40);
+﻿/* Questão 1 - Faça um programa que declare dois números inteiros e exiba no console o resultado das 4 operações básicas: soma, subtração, multiplicação e divisão.
+*/
+
 
 //= operador de atribuição de valor 
 string operacao = "Soma"; // Declaração de variável do tipo string
@@ -19,25 +20,22 @@ Console.WriteLine("numC * numD");
 Console.WriteLine("A operação que está sendo realizada é " + mult);
 Console.WriteLine(numC * numD);
 
-int idade = 20;
-bool temCNH = false; // true or false
+string divisão = "divisão"; // Declaração de variável tipo int
+int numE = 10;
+int numF = 4;
+Console.WriteLine("numE / numF");
+//Console.WriteLine() - Instrução para escrita de mensagens do console
+Console.WriteLine("A operação que está sendo realizada é " + divisão);
+Console.WriteLine(numE / numF);
 
-if ( idade > 18 && temCNH == true ) {
-    Console.WriteLine("Pessoa é maior de idade e possui CNH.");
-} else {
-    Console.WriteLine("A pessoa não pode dirigir.");
-}
+string subtração = "subtração"; // Declaração de variável tipo int
+int numG = 15;
+int numH = 5;
+Console.WriteLine("numG / numH");
+//Console.WriteLine() - Instrução para escrita de mensagens do console
+Console.WriteLine("A operação que está sendo realizada é " + subtração);
+Console.WriteLine(numG - numH);
 
-if ( idade > 18 ) {
-    if ( temCNH == true ) {
-        Console.WriteLine("Pessoa é maior de idade e possui CNH.");
-    } else {
-     
-        Console.WriteLine("Pessoa não possui CNH.");
-    }
-} else {
-    Console.WriteLine("A pessoa não é maior de 18 anos.");
-}
 
 
 
